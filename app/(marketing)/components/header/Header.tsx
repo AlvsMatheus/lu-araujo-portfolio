@@ -62,7 +62,6 @@ const Header = () => {
               height={20}
               src={"/icons/instagram_white.png"}
               alt={"instagram icon"}
-              className="lg:w-5.2 lg:h-5.2 md:h-4.8 md:w-4"
             ></Image>
           </a>
           <a
@@ -74,8 +73,6 @@ const Header = () => {
               height={20}
               src={"/icons/facebook_white.png"}
               alt={"facebook icon"}
-              className="lg:w-5.2 lg:h-5.2 md:h-5.5 md:w-4"
-
             ></Image>
           </a>
           <a
@@ -87,15 +84,13 @@ const Header = () => {
               height={20}
               src={"/icons/whatsapp_white.png"}
               alt={"whatsapp icon"}
-              className="lg:w-5.2 lg:h-5.2 md:h-5.5 md:w-4"
-
             ></Image>
           </a>
         </div>
         <div className="md:hidden flex flex-col text-center gap-4 text-[#923e3e]">
-            <a href="#">Quem sou</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
+          <a href="#">Quem sou</a>
+          <a href="#">Serviços</a>
+          <a href="#">Contato</a>
         </div>
       </div>
     </header>
