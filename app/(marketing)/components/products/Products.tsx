@@ -1,14 +1,18 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+import Service from "./Service";
+
 
 const Products = () => {
   return (
-    <div 
-    className='h-screen'
-    style={{backgroundImage: "url('/background/bege_background.png')"}}
+    <article 
+    className="flex flex-col w-full"
+    style={{ backgroundImage: "url('/background/bege_background.png')" }}
     >
-      
-    </div>
-  )
-}
+      <Service/>
 
-export default Products
+    </article>
+  );
+};
+
+export default Products;
