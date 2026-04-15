@@ -34,9 +34,7 @@ const Header = () => {
         </div>
         <div className="flex flex-col justify-center">
           <h1
-            className="text-8xl md:text-7xl lg:text-9xl text-[#923e3e] text-center text-nowrap"
-            style={{ fontFamily: "var(--font-daydream)" }}
-          >
+            className="text-8xl md:text-7xl lg:text-9xl font-daydream text-[#923e3e] text-center text-nowrap">
             Lu <span className="text-black">Araújo</span>
           </h1>
 

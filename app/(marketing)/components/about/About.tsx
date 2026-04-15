@@ -10,7 +10,7 @@ const About = () => {
       <section className="relative flex md:justify-center items-center min-h-20 w-full pt-25 lg:py-20 p-10">
         <h1 className=" text-2xl md:text-3xl uppercase">Quem sou ?</h1>
         <div className="absolute right-10 md:right-25 flex justify-center items-center gap-2 uppercase md:pe-8">
-          <p className="text-[#923e3e] text-1xl tracking-wider">Serviços</p>
+          <p className="text-[#923e3e] text-1xl font-tinos">Serviços</p>
           <span className="h-5 w-1 bg-[#923e3e]"></span>
         </div>
       </section>
@@ -39,7 +39,7 @@ const About = () => {
 
           <a
             href="#"
-            className="bg-[#923e3e] hover:scale-105 transition-transform text-white px-8 py-4 rounded-full shadow-md self-center lg:self-end lg:mr-10"
+            className="bg-[#d47676] hover:scale-105 transition-transform text-white px-8 py-4 rounded-full shadow-md self-center lg:self-end lg:mr-10"
           >
             Conheça nosso trabalho
           </a>

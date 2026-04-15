@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Tinos } from "next/font/google";
 import localFont from "next/font/local";
 import "../globals.css";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
+  subsets: ["latin"],
+  display: "swap"
+})
+
+const tinos = Tinos({
+  variable: "--font-tinos",
+  weight: "400",
   subsets: ["latin"],
   display: "swap"
 })
@@ -28,7 +35,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${daydream.variable} h-full antialiased`}
+      className={`${montserrat.variable} ${tinos.variable} ${daydream.variable} h-full antialiased`}
     >
       <body className={`${montserrat.className} min-h-full flex flex-col`}>{children}</body>
     </html>

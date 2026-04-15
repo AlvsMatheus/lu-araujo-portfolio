@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
+.font-tinos {
+    font-family: var(--font-tinos);
+}
 
+.font-daydream {
+    font-family: var(--font-daydream);
+}
 
 .underline_effect {
     @apply absolute left-0 -bottom-1 h-0.5 w-0 bg-[#923e3e] transition-all duration-300 group-hover:w-full
