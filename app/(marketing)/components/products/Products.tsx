@@ -9,7 +9,8 @@ const Products = () => {
     className="flex flex-col w-full"
     style={{ backgroundImage: "url('/background/bege_background.png')" }}
     >
-      <Service/>
+    <Service/>
+    
 
     </article>
   );

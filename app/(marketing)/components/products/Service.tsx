@@ -13,21 +13,13 @@ const Service = () => {
           {products.map((item) => (
             <div key={item.id} className="flex gap-10">
               <section className="flex flex-col bg-white max-w-90 max-h-130 h-120 md:h-100 lg:h-130">
-                <div className="relative h-full">
-                  <div className="absolute flex flex-col gap-5 -top-12 left-1/2 -translate-x-1/2">
-                    <p 
-                    className="text-8xl md:text-6xl lg:text-8xl font-tinos italic"
+                <div className="flex justify-center items-center w-full h-full">
+                  <p 
+                    className="text-7xl font-tinos"
                     style={{color: item.color}}
-                    >
-                      {item.numberService} /
-                    </p>
-                    <p
-                      className={`text-8xl md:text-6xl lg:text-8xl max-w-[280px] break-words font-tinos italic leading-18`}
-                      style={{ color: item.color }}
-                    >
-                      {item.nameService}
-                    </p>
-                  </div>
+                  >
+                    {item.nameService}
+                  </p>
                 </div>
                 <Image
                   src={item.src}
