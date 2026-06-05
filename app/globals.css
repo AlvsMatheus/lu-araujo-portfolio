@@ -11,3 +11,11 @@
 .underline_effect {
     @apply absolute left-0 -bottom-1 h-0.5 w-0 bg-[#923e3e] transition-all duration-300 group-hover:w-full
 }
+
+.footer-heading {
+  @apply text-[11px] font-medium tracking-[0.15em] uppercase text-[#2c2c2c] mb-3;
+}
+
+.footer-text {
+  @apply text-[12px] font-light text-[#5a5a5a] leading-relaxed;
+}
