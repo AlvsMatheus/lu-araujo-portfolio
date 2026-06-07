@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeUp, fadeIn, slideLeft, staggerContainer, socialContainer, socialItem } from "../animations";
 
-const NAV_LINKS = ["Home", "Quem sou", "Serviços", "Contato"];
+const NAV_LINKS = [ {link: "Home", href: "#"}, {link: "Quem Sou", href: "#quemsou"}, {link: "Servicos", href:"#servicos"}, {link: "contatos", href:"#agendar"}];
 const MOBILE_LINKS = ["Quem sou", "Serviços", "Contato"];
 const SOCIAL_ICONS = [
   { src: "/icons/instagram_white.png", alt: "instagram icon" },
@@ -30,11 +30,12 @@ const Header = () => {
           >
             {NAV_LINKS.map((item) => (
               <motion.a
-                key={item}
+                key={item.link}
+                href={item.href}
                 className="relative text-[#923e3e] group cursor-pointer"
                 variants={fadeUp}
               >
-                {item}
+                {item.link}
                 <span className="underline_effect" />
               </motion.a>
             ))}

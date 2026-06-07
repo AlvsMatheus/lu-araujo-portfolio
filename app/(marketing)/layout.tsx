@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${tinos.variable} ${daydream.variable} h-full antialiased`}
+      className={`${montserrat.variable} ${tinos.variable} ${daydream.variable} h-full scroll-smooth antialiased`}
     >
       <body className={`${montserrat.className} min-h-full flex flex-col`}>{children}</body>
     </html>

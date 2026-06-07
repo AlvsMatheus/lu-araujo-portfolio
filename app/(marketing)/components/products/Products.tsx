@@ -24,7 +24,7 @@ const ProductSection = ({ item }: { item: (typeof products)[0] }) => {
     >
       {/* Imagem */}
       <motion.div
-        className="flex-shrink-0 md:w-[38%] max-w-sm"
+        className="shrink-0 md:w-[38%] max-w-sm"
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={imageVariant}
@@ -87,7 +87,7 @@ const ProductSection = ({ item }: { item: (typeof products)[0] }) => {
         </div>
 
         <motion.a
-          href="#"
+          href="#agendar"
           className="inline-block rounded-full px-8 py-3 text-white font-medium text-sm tracking-wide transition-opacity hover:opacity-90"
           style={{ backgroundColor: item.color }}
           variants={fadeUp}

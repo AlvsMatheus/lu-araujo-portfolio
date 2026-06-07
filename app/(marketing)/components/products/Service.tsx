@@ -24,6 +24,7 @@ const Service = () => {
           initial="hidden"
           animate={headingInView ? "visible" : "hidden"}
           variants={fadeUp}
+          id="servicos"
         >
           Nossos Serviços
         </motion.h1>

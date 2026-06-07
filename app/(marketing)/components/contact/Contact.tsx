@@ -49,6 +49,7 @@ const Contact = () => {
         </motion.section>
 
         <motion.a
+          id="agendar"
           href="#"
           initial="hidden"
           whileInView="visible"

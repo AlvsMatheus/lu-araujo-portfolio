@@ -24,6 +24,7 @@ const About = () => {
         className="relative flex md:justify-center items-center min-h-20 w-full pt-25 lg:py-20 p-10"
       >
         <motion.h1
+          id="quemsou"
           className="text-2xl md:text-3xl uppercase"
           initial="hidden"
           animate={headingInView ? "visible" : "hidden"}
@@ -83,7 +84,7 @@ const About = () => {
           </motion.div>
 
           <motion.a
-            href="#"
+            href="#servicos"
             className="bg-[#d47676] text-white px-8 py-4 rounded-full shadow-md self-center lg:self-end lg:mr-10"
             initial="hidden"
             animate={cardInView ? "visible" : "hidden"}

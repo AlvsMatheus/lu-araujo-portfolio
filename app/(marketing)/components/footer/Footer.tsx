@@ -14,7 +14,7 @@ const Footer = () => {
       variants={fadeUp}
       className="bg-[#fdf6f0] border-t border-[#e8ddd6] pt-12"
     >
-      <div className="max-w-5xl mx-auto justify-items-center px-8 pb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="max-w-5xl mx-auto md:justify-items-center px-8 pb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         
         {/* Endereço */}
         <div className="flex flex-col gap-1">
